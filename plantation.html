@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color::MediumSeaGreen;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+  background-color: #f1f1f1;
+  padding-left: 50px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  width: 100%;
+ padding: 20px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>KUCHIVARIPALLI PLANTATION</h1>
+  <p>MORE PRIORITY TO AVENUE PLANTATION</p>
+</div>
+
+<div class="topnav">
+  <a href="#">HOME</a>
+ <a onclick="staff()">STAFF</a>
+ 
+
+
+
+  <a onclick="swpc()">SWPC</a>
+  <a onclick="plantation()">PLANTATION</a>
+  <a onclick="water()">WATER BORE</a>
+  <a onclick="sanitation()">SANITATION WORKS</a>
+  <a onclick="covid19()">COVID-19</a>
+  <a onclick="schemes()">GOVERNMENT SCHEMES</a>
+  <a onclick="others()">OTHERS</a>
+  <a onclick="contacts()" style="float:right">CONTACTS</a>
+</div>
+
+	
+	
+
+//********  my program *********************
+
+  <div class="leftcolumn">
+    
+      <h2>KUCHIVARIPALLI- 1 & 2 PANCHAYAT OFFICE</h2>
+      <h5>ITS DESCRIPTION--- --- --- --- --- </h5>
+      <div class="fakeimg" style="height:200px;">
+ <img src="plant.jpeg" alt="Trulli" width="500" height="333">
+
+	Image
+	</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div> 
+
+  <div class="rightcolumn">
+    
+      <h2>KUCHIVARIPALLI ARCH</h2>
+      <h5>ITS DESCRIPTION--- --- --- --- --- </h5>
+     <div class="fakeimg" style="height:200px;">
+ 
+        <img src="plant.jpeg" alt="Trulli" width="500" height="333">
+	Image
+	</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div> 
+   
+   
+  
+
+//********  end my program ***************
+
+
+</head>
+
+<script>
+var myWindow;
+function staff() {
+  myWindow=window.open("x7.html", "", "width=4000, height=2000");
+}
+function swpc() {
+  myWindow=window.open("x7.html", "", "width=4000, height=2000");
+}
+</script>
+
+
+
+
+
+</body>
+</html>
